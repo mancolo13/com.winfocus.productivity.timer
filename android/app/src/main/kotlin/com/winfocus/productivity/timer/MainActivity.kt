@@ -1,4 +1,4 @@
-package com.arenasport.football.matchtracker
+package com.winfocus.productivity.timer
 
 import android.os.Build
 import android.os.Bundle
