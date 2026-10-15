@@ -7,9 +7,9 @@ class Tab2Screen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final tasks = [
-      {'title': 'Завершить документацию спринта', 'pomo': '2/2 Помидора', 'done': true},
-      {'title': 'Оптимизировать SQL индексы', 'pomo': '1/3 Помидора', 'done': false},
-      {'title': 'Ревью открытых Pull Request', 'pomo': '0/2 Помидора', 'done': false},
+      {'title': 'Finalize sprint documentation', 'pomo': '2/2 Pomodoros', 'done': true},
+      {'title': 'Optimize database SQL indices', 'pomo': '1/3 Pomodoros', 'done': false},
+      {'title': 'Review pending Pull Requests', 'pomo': '0/2 Pomodoros', 'done': false},
     ];
 
     return Scaffold(
@@ -21,7 +21,7 @@ class Tab2Screen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            const Text('Список задач на сегодня', style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold)),
+            const Text("Today's Task List", style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold)),
             const SizedBox(height: 12),
             ...tasks.map((t) => Container(
               margin: const EdgeInsets.only(bottom: 10),

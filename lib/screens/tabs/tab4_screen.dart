@@ -24,11 +24,11 @@ class Tab4Screen extends StatelessWidget {
               ),
               child: const Column(
                 children: [
-                  Text('Время глубокого фокуса за сегодня', style: TextStyle(color: Colors.white70, fontSize: 12)),
+                  Text('Deep Focus Time Today', style: TextStyle(color: Colors.white70, fontSize: 12)),
                   SizedBox(height: 6),
-                  Text('4.8 Часа', style: TextStyle(color: AppTheme.primaryColor, fontSize: 32, fontWeight: FontWeight.bold)),
+                  Text('4.8 Hours', style: TextStyle(color: AppTheme.primaryColor, fontSize: 32, fontWeight: FontWeight.bold)),
                   SizedBox(height: 6),
-                  Text('11 завершенных помидоров • Продуктивность: 96%', style: TextStyle(color: Colors.white60, fontSize: 12)),
+                  Text('11 completed pomodoros • Productivity: 96%', style: TextStyle(color: Colors.white60, fontSize: 12)),
                 ],
               ),
             ),

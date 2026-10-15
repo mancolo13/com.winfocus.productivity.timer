@@ -31,11 +31,11 @@ class _Tab1ScreenState extends State<Tab1Screen> {
               ),
               child: Column(
                 children: [
-                  const Text('ФОКУС СЕССИЯ • ЦИКЛ 3 ИЗ 4', style: TextStyle(color: AppTheme.primaryColor, fontWeight: FontWeight.bold, fontSize: 11)),
+                  const Text('FOCUS SESSION • CYCLE 3 OF 4', style: TextStyle(color: AppTheme.primaryColor, fontWeight: FontWeight.bold, fontSize: 11)),
                   const SizedBox(height: 16),
                   const Text('21 : 45', style: TextStyle(color: Colors.white, fontSize: 52, fontWeight: FontWeight.bold)),
                   const SizedBox(height: 12),
-                  const Text('Задача: Архитектура базы данных и модули', style: TextStyle(color: Colors.white70, fontSize: 13)),
+                  const Text('Task: Database Architecture & Core Modules', style: TextStyle(color: Colors.white70, fontSize: 13)),
                   const SizedBox(height: 20),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -43,7 +43,7 @@ class _Tab1ScreenState extends State<Tab1Screen> {
                       ElevatedButton(
                         onPressed: () => setState(() => _running = !_running),
                         style: ElevatedButton.styleFrom(backgroundColor: AppTheme.primaryColor, foregroundColor: Colors.white, padding: const EdgeInsets.symmetric(horizontal: 28, vertical: 12)),
-                        child: Text(_running ? 'ПАУЗА' : 'СТАРТ'),
+                        child: Text(_running ? 'PAUSE' : 'START'),
                       ),
                     ],
                   ),
